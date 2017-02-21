@@ -19,7 +19,7 @@ import org.jdom2.JDOMException;
 
 /**
  *
- * @author Dénilson Argueta
+ * @author Rod
  */
 public class LeerArchivo extends javax.swing.JFrame {
 

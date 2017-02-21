@@ -7,7 +7,7 @@ package scrabble;
 
 /**
  *
- * @author Dénilson Argueta
+ * @author Rod
  */
 public class NodoSimple {
     private String palabra;

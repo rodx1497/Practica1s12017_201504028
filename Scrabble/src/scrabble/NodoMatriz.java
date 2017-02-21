@@ -9,7 +9,7 @@ import javax.swing.JButton;
 
 /**
  *
- * @author Dénilson Argueta
+ * @author Rod
  */
 public class NodoMatriz {
     private int posX;

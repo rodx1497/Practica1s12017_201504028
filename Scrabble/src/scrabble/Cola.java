@@ -6,7 +6,7 @@
 package scrabble;
 /**
  *
- * @author Dénilson Argueta
+ * @author Rod
  */
 public class Cola {
     class Nodo
