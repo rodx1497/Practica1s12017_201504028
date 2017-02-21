@@ -16,8 +16,9 @@ public class Scrabble {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Juego ju = new Juego();
-        ju.setVisible(true);
+        LeerArchivo hola= new LeerArchivo();
+        hola.setVisible(true);
+        hola.setLocation(500,500);
     }
     
 }
