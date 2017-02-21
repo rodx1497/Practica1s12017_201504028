@@ -18,7 +18,7 @@ public class Scrabble {
         // TODO code application logic here
         LeerArchivo hola= new LeerArchivo();
         hola.setVisible(true);
-        hola.setLocation(500,500);
+        hola.setLocation(500,200);
     }
     
 }
