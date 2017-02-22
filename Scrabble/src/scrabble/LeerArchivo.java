@@ -92,7 +92,7 @@ public class LeerArchivo extends javax.swing.JFrame {
                         .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(jButton3)))
-                .addContainerGap(36, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton4)
@@ -111,7 +111,7 @@ public class LeerArchivo extends javax.swing.JFrame {
                     .addComponent(jButton3))
                 .addGap(22, 22, 22)
                 .addComponent(jButton2)
-                .addContainerGap(36, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -131,8 +131,9 @@ public class LeerArchivo extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
        Juego b=new Juego();
-       //b.empezar(jugadores,letras);
+       b.empezar(jugadores,letras);
        b.setVisible(true);
+       setVisible(false);
        
        //jugadores.mostrar();
        
@@ -165,9 +166,9 @@ public class LeerArchivo extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
-        /*MatrizOrtogonal hola=new MatrizOrtogonal(5);
+        MatrizOrtogonal hola=new MatrizOrtogonal(5);       
         hola.insertar();
-        hola.imprimir();*/
+        hola.imprimir();
         
     }//GEN-LAST:event_jButton4ActionPerformed
     private void agregarletras()
